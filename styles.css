@@ -1,0 +1,20 @@
+* {
+    user-select: none;
+}
+
+html {
+    background-color: rgb(30, 26, 26);
+}
+
+#field {
+    color: white;
+    text-align: left;
+    font-size: 50px;
+    font-family: rockwell;
+}
+
+@media (max-width: 650px) {
+	#field {
+		font-size: 18px;
+	}
+}
